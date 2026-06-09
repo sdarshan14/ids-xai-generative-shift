@@ -1,4 +1,5 @@
 # IDS_XAI_Generative_Shift
+# Day 1
 
 ## Overview
 
@@ -154,4 +155,24 @@ Initial project structure and workflow completed. Further improvements may inclu
 ## Author
 
 Bhashyam Sree Darshan
+
+## Day 2 
+We focused on implementing and evaluating deep learning models for intrusion detection using the preprocessed UNSW-NB15 dataset.
+
+Completed Activities:
+
+* Implemented CNN baseline model
+* Implemented RNN baseline model
+* Implemented LSTM baseline model
+* Implemented BiLSTM baseline model
+* Implemented GRU baseline model
+* Generated evaluation metrics including Accuracy, Precision, Recall, F1-Score, ROC-AUC, Training Time, and Inference Time
+* Performed confusion matrix analysis
+* Created model comparison documentation
+* Prepared baseline hyperparameter documentation
+* Generated Day 2 technical report and presentation
+
+Outcome:
+All five deep learning models were successfully executed and evaluated. CNN demonstrated the fastest execution time, while RNN, LSTM, BiLSTM, and GRU achieved perfect classification performance on the preprocessed UNSW-NB15 dataset.
+
 
