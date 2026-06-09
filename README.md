@@ -152,10 +152,6 @@ Initial project structure and workflow completed. Further improvements may inclu
 
 ---
 
-## Author
-
-Bhashyam Sree Darshan
-
 ## Day 2 
 We focused on implementing and evaluating deep learning models for intrusion detection using the preprocessed UNSW-NB15 dataset.
 
