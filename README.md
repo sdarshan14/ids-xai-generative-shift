@@ -171,4 +171,130 @@ Completed Activities:
 Outcome:
 All five deep learning models were successfully executed and evaluated. CNN demonstrated the fastest execution time, while RNN, LSTM, BiLSTM, and GRU achieved perfect classification performance on the preprocessed UNSW-NB15 dataset.
 
+# Day 3 – Synthetic Data Augmentation and Validation
+
+## Project
+
+IDS_XAI_Generative_Shift
+
+## Objective
+
+The objective of Day 3 was to address class imbalance in the UNSW-NB15 dataset by generating synthetic samples for minority attack classes using CTGAN (Conditional Tabular Generative Adversarial Network) and validating the quality of the generated data using statistical and machine learning techniques.
+
+---
+
+## Work Completed
+
+### 1. Class Distribution Analysis (CDA)
+
+* Analyzed attack category distribution in the UNSW-NB15 dataset.
+* Identified minority attack, classes.
+* Evaluated dataset imbalance.
+* Generated class distribution tables and visualizations.
+
+### 2. CTGAN-Based Data Augmentation
+
+* Trained CTGAN on the processed UNSW-NB15 dataset.
+* Generated synthetic samples for minority attack classes.
+* Created an augmented dataset by combining original and synthetic data.
+* Evaluated class balance improvement after augmentation.
+
+### 3. Augmented Data Validation (ADV)
+
+* Compared original and augmented datasets.
+* Performed Jensen-Shannon Divergence analysis.
+* Performed Kolmogorov-Smirnov statistical testing.
+* Conducted Random Forest validation to assess distinguishability between real and synthetic samples.
+* Generated feature importance analysis.
+
+---
+
+## Folder Structure
+
+```text
+Day 3
+│
+├── CDA
+│   └── Class Distribution Analysis files
+│
+├── CTGAN
+│   └── Synthetic Data Augmentation files
+│
+├── ADV
+│   └── Augmented Data Validation files
+│
+├── Reports
+│   └── Documentation and summary reports
+│
+├── Tables
+│   └── CSV output files
+│
+├── Figures
+│   └── Generated graphs and visualizations
+│
+└── Presentation
+    └── Progress presentation
+```
+
+---
+
+## Key Outputs
+
+### Generated Datasets
+
+* augmented_dataset_unsw_nb15.csv
+* data_balanced_random.csv
+
+### Generated Tables
+
+* Class Distribution Comparison
+* Augmentation Comparison
+* Jensen-Shannon Divergence Results
+* Kolmogorov-Smirnov Test Results
+* Feature Importance Results
+* Validation Metrics Summary
+
+### Generated Figures
+
+* Attack Distribution Analysis
+* Class Distribution Comparison
+* Imbalance Ratio Comparison
+* CTGAN Augmentation Results
+* Jensen-Shannon Divergence Analysis
+* Random Forest Validation Results
+* Feature Importance Analysis
+* KS Test Analysis
+
+---
+
+## Validation Techniques Used
+
+### Statistical Validation
+
+* Jensen-Shannon Divergence (JSD)
+* Kolmogorov-Smirnov (KS) Test
+
+### Machine Learning Validation
+
+* Random Forest Classifier
+* Feature Importance Analysis
+
+---
+
+## Outcome
+
+* Successfully generated synthetic attack samples using CTGAN.
+* Improved minority class representation.
+* Created an augmented dataset for future IDS model training.
+* Validated the quality and similarity of synthetic data using statistical and machine learning approaches.
+
+---
+
+## Status
+
+Day 3 Completed Successfully
+
+Project: IDS_XAI_Generative_Shift
+Dataset: UNSW-NB15
+Methodology: CTGAN-Based Synthetic Data Augmentation and Validation
 
